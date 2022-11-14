@@ -1,4 +1,4 @@
-export default class Store {
+class Store {
   static getBooks() {
     let books;
     if (localStorage.getItem('books') === null) {
@@ -28,3 +28,5 @@ export default class Store {
     localStorage.setItem('books', JSON.stringify(books));
   }
 }
+
+export default Store;
