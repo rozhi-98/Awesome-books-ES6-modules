@@ -23,7 +23,7 @@ document.querySelector('.book-form').addEventListener('submit', (e) => {
   const title = document.querySelector('#title').value;
   const author = document.querySelector('#author').value;
   const id = `${new Date().getTime().toString()}${Math.trunc(
-    Math.random() * 100
+    Math.random() * 100,
   )}`;
 
   // createan object of book class
@@ -95,7 +95,7 @@ const showBlock = (e) => {
 };
 
 links.forEach((element) => {
-  element.addEventListener('click', function () {
+  element.addEventListener('click', () => {
     showBlock(element.id);
     const current = document.getElementsByClassName('active');
     current[0].className = current[0].className.replace(' active', '');
