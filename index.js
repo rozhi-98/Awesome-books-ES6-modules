@@ -23,7 +23,7 @@ document.querySelector('.book-form').addEventListener('submit', (e) => {
   const title = document.querySelector('#title').value;
   const author = document.querySelector('#author').value;
   const id = `${new Date().getTime().toString()}${Math.trunc(
-    Math.random() * 100,
+    Math.random() * 100
   )}`;
 
   // createan object of book class
@@ -63,7 +63,7 @@ setInterval(() => {
 
 const links = document.querySelectorAll('.links');
 
-function showBlock(e) {
+const showBlock = (e) => {
   const sectionList = document.getElementById('list');
   const sectionAdd = document.getElementById('add_book');
   const sectionContact = document.getElementById('contact');
@@ -92,7 +92,7 @@ function showBlock(e) {
       sectionContact.style.display = 'none';
       break;
   }
-}
+};
 
 links.forEach((element) => {
   element.addEventListener('click', function () {
