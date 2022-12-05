@@ -63,7 +63,7 @@ setInterval(() => {
 
 const links = document.querySelectorAll('.links');
 
-function showBlock(e) {
+const showBlock = (e) => {
   const sectionList = document.getElementById('list');
   const sectionAdd = document.getElementById('add_book');
   const sectionContact = document.getElementById('contact');
@@ -92,10 +92,10 @@ function showBlock(e) {
       sectionContact.style.display = 'none';
       break;
   }
-}
+};
 
 links.forEach((element) => {
-  element.addEventListener('click', function () {
+  element.addEventListener('click', () => {
     showBlock(element.id);
     const current = document.getElementsByClassName('active');
     current[0].className = current[0].className.replace(' active', '');

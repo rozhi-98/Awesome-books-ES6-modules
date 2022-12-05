@@ -1,78 +1,157 @@
-# awesome-books-ES6-modules
-![](https://img.shields.io/badge/Microverse-blueviolet)
+<!-- TABLE OF CONTENTS -->
 
-This project is done using HTML, SCSS and Javascript. The project is also set up with html-css and javascript linters. I have modified it using ES-6 modules to be more organized and cleaner.
+# 📗 Table of Contents
 
-## Built With
+- [📖 About the Project](#about-project)
+  - [🛠 Built With](#built-with)
+    - [Tech Stack](#tech-stack)
+    - [Key Features](#key-features)
+  - [🚀 Live Demo](#live-demo)
+- [💻 Getting Started](#getting-started)
+  - [Setup](#setup)
+  - [Prerequisites](#prerequisites)
+  - [Install](#install)
+  - [Usage](#usage)
+  - [Run tests](#run-tests)
+  - [Deployment](#triangular_flag_on_post-deployment)
+- [👥 Authors](#authors)
+- [🔭 Future Features](#future-features)
+- [🤝 Contributing](#contributing)
+- [⭐️ Show your support](#support)
+- [🙏 Acknowledgements](#acknowledgements)
+- [❓ FAQ](#faq)
+- [📝 License](#license)
 
--HTML
--CSS
--Javascript
+<!-- PROJECT DESCRIPTION -->
+
+# 📖 [Awesome-Books] <a name="about-project"></a>
+
+**[Awesome-Books]** is a basic website that allows users to add/remove books from a list. We will achieve that by using JavaScript objects and arrays. We will also need to dynamically modify the DOM and add basic events.👌
+
+## 🛠 Built With <a name="built-with"></a>
+- HTML
+- Use semantic HTML tags.
+- Apply best practices in HTML code.
+- Apply JavaScript best practices and language style guides in code.
+- Use JavaScript to manipulate DOM elements.
+- Use JavaScript events.
+- Use objects to store and access data.
+- Communicate technical concepts to other technical people.
+
+<!-- Features -->
+
+### Key Features <a name="key-features"></a>
+
+- **[Add_books]**
+- **[Remove_books]**
+- **[Save_in_local_storage]**
+- **[Show_current_date_and_time]**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- LIVE DEMO -->
+
+## 🚀 Live Demo <a name="live-demo"></a>
+
+- [Live Demo Link](https://rozhi-98.github.io/awesome-books/)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- GETTING STARTED -->
+
+## 💻 Getting Started <a name="getting-started"></a>
+
+To get a local copy up and running follow these simple steps.
+
+### Prerequisites
+
+- Use `git clone git@github.com:rozhi-98/Awesome-books-ES6-modules.git` to clone the repository using the SSH link into your local machine
+
+### Setup
+
+- `cd` into your local repository
+
+### Install
+
+- `npm install` - Installs the necessary dependencies
+
+### Usage
+
+- Open the index file and enjoy
 
 
-## This is a bookstore project where you can add and remove your favorite books
-## To Get Started
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-To get a local copy up, CD into the project folder and run:
+<!-- AUTHORS -->
 
-```
-npm install
-```
+## 👥 Authors <a name="authors"></a>
 
-## Running Linters From the Command-line
-
-> To execute Webhint linters, run the command bellow (Instead of using . to run the linter from the root, you can also specify a specific directory, i.e.** npx hint ./index**):
-
-```
-npx hint .
-```
-
-Then manually fix the highlighted errors is any.
-
-> To execute style linters, run the command bellow:
-
-```
-npx stylelint "**/*.scss"
-```
-
-Then manually fix the highlighted errors is any.
-
-To auto fix stylelint errors that are fixable automatically, run
-
-```
-npx stylelint "**/*.scss" --fix
-```
-
-You can [ learn more here>>](https://stylelint.io/user-guide/usage/cli/#autofixing-errors)
-
-## Live Demo
-
-[Live Demo Link](https://rozhi-98.github.io/awesome-books/)
-
-## Author
+> Mention all of the collaborators of this project.
 
 👤 **Rozh Bahman Tahir**
 
-- GitHub: https://github.com/rozhi-98
-- LinkedIn: https://www.linkedin.com/in/rozh-tahir-446203185
+- GitHub: [@githubhandle](https://github.com/rozhi-98)
+- Twitter: [@twitterhandle](https://twitter.com/rozhi98?t=xS_0o-oG7K5cgodULjesNA&s=09)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/rozh-bahman-tahir-446203185)
 
 
-## 🤝 Contributing
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- FUTURE FEATURES -->
+
+## 🔭 Future Features <a name="future-features"></a>
+
+- [ ] **[Add unique ID for each book]**
+- [ ] **[Add date and time with Luxon library]**
+- [ ] **[Create contact page]**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- CONTRIBUTING -->
+
+## 🤝 Contributing <a name="contributing"></a>
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page](https://github.com/rozhi-98/Awesome-books-ES6-modules/issues).
 
-## Show your support
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-Give a ⭐️ if you like this project!
+<!-- SUPPORT -->
 
-## Acknowledgments
-
-- Original design idea by [Cindy Shin in Behance](https://www.behance.net/adagio07).
-
-## 📝 License
-
-This project is [MIT](./LICENSE.txt) licensed.
+## ⭐️ Show your support <a name="support"></a>
 
 
+If you like this project please support us by giving it a ⭐️.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- ACKNOWLEDGEMENTS -->
+
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
+
+I would like to thank Cindy Shin in Behance for the original design idea: [Cindy Shin in Behance](https://www.behance.net/adagio07).
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- FAQ (optional) -->
+
+## ❓ FAQ <a name="faq"></a>
+
+- **[What frameworks have you used?]**
+
+  - [We have not used any frameworks]
+
+- **[Why did you work in group for a simple project?]**
+
+  - [Working in group is a habit of real work places and is good practice.]
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- LICENSE -->
+
+## 📝 License <a name="license"></a>
+
+This project is [MIT](./LICENSE) licensed.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
